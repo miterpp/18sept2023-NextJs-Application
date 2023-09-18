@@ -13,13 +13,20 @@ import Head from 'next/head'
         <title>Welcome to my first Nextjs Application</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header></header>
+      <header>
+        Header Component
+      </header>
       <main>
-        
+        <aside>
+        Aside Component
+        </aside>
+        <section>
+        Section Component
+        </section>
       </main>
 
       <footer>
-        
+      Footer Component
       </footer>
     </>
   )

@@ -4,13 +4,32 @@ header{
   background-color: #0D7962;
   border:2px dashed red;
   margin:auto;
+  color:white;
 }
 main{
   width:980px;
   height:450px;
-  background-color: #0D7962;
   border:2px dashed black;
   margin:auto;
+  color:white;
+}
+aside{
+  width:270px;
+  height:450px;
+  background-color: #0D7962;
+  border:2px dashed black;
+  float:left;
+  margin-right:14px; 
+  color:white;
+
+}
+section{
+  width:690px;
+  height:450px;
+  background-color: #0D7962;
+  border:2px dashed black;
+  float:left;
+  color:white;
 }
 
 footer{
@@ -19,4 +38,5 @@ footer{
   background-color: #0D7962;
   border:2px dashed black;
   margin:auto;
+  color:white;
 }
