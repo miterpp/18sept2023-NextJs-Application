@@ -1,5 +1,8 @@
 //1. Import Area
 import Head from 'next/head'
+import Header from './Component/Header';
+import Aside from './Component/Aside';
+import Section from './Component/Section';
 //Import something from 'some library/location';
 
 //pages/_app.js
@@ -13,21 +16,13 @@ import Head from 'next/head'
         <title>Welcome to my first Nextjs Application</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header>
-        Header Component
-      </header>
+      <Header />
       <main>
-        <aside>
-        Aside Component
-        </aside>
-        <section>
-        Section Component
-        </section>
+      <Aside />
+      <Section />
       </main>
 
-      <footer>
-      Footer Component
-      </footer>
+     <Footer />
     </>
   )
 }
